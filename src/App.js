@@ -1,16 +1,12 @@
 import React from "react";
-import Home from "./pages/Home"
-
-
+import Jumbotron from "./components/jumbotron";
+import Table from "./components/table"; 
 
 function App() {
   return (
-    <div className="App">
-    
-    <Home />
-
-    
-
+    <div>
+    <Jumbotron/>
+    <Table />
     </div>
   );
 }

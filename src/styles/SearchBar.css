@@ -1,14 +1,18 @@
-.searchbox {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
+.form-group {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
 }
 
-#search {
-    padding: 10px;
-    margin: 20px 5px;
+.btn-primary {
+    color: white;
+    background-color: #2CBBD8;
+    border: none;
+    box-shadow: none; /* Removes blue halo */
 }
 
-.searchtitle {
-    font-size: 20px;
-} 
+.btn-primary:hover {
+    color:  #5D5D5D;
+    background-color: #dee2e6;
+    cursor: pointer;
+}

@@ -1,8 +1,11 @@
 import axios from 'axios';
 
+const url = 'https://randomuser.me/api/?results=100&nat=au';
 
-export default {
-    getUsers: function() {
-        return axios.get("https://randomuser.me/api/?results=100nat=au")
-    }
-};
+//api call
+
+const API = { ApiSearch: function () {
+    return axios.get(url)
+    }}
+
+export default API;

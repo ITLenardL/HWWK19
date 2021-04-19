@@ -1,24 +1,27 @@
-import React from 'react';
-import "../styles/SearchBar.css";
+import React from "react";
+//import DataAreaContext from "../utils/dataAreaContext.js";
+import "../styles/searchbar.css"
 
+const SearchBar = (props) => {
+//const context = useContext(DataAreaContext)
 
-const SearchBar = (prop) => {
-    return (
+return (
+    <form>
+    <div className="form-group search-widget">
+    <div className="input-group mb-3">
 
-        <div className="searchbox">
-            <span className="searchtitle">Search</span>
-            <input
-                id="search"
-                className="search-control"
-                type="search"
-                placeholder="name"
-                onChange={prop.handleInputChange}
-
-
-            />
-
-        </div>
-    )
+        <input
+        onChange={props.handleInputChange}
+        value={props.search}
+        name="search"
+        type="text"
+        className="form-control"
+        placeholder='Search directory for Employee'
+        id="search"
+        />
+    </div>
+    </div>
+    </form>
+);
 }
-
 export default SearchBar;
