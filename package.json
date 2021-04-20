@@ -2,7 +2,7 @@
   "name": "empdir",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ITLenardL.github.io/my-app",
+  "homepage": "https://itlenardl.github.io/HWWK19-EmployeeDirectory/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
